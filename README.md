@@ -1,4 +1,4 @@
-# LABORATORY-2-BAMBOOS
+# Plant-Species-Image-Classification
 
 ##### B. Plant Species Section
 #### Common Name: Dwarf Bamboo
