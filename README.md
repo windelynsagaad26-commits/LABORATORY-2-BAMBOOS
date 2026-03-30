@@ -9,7 +9,11 @@ Scientific Name: Bambusa spp. (or possibly Pleioblastus spp., depending on the e
 Description:
 The plant shown is a Dwarf Bamboo, a smaller and more compact variety of bamboo. It grows in dense clumps with multiple thin, green stems and narrow, pointed leaves. Compared to larger bamboo species, dwarf bamboo is shorter in height but still maintains the same fast-growing nature. It is commonly used for landscaping, garden decoration, and ground cover due to its thick and bushy appearance. Dwarf bamboo thrives in warm environments and prefers moist soil, often growing well near water or shaded areas..
 #### C. Model Training Details
-## Train the Model
+
+Train the Model<img width="1915" height="1094" alt="Screenshot 2026-03-30 120932" src="https://github.com/user-attachments/assets/653c2ea7-2b8d-4861-8427-17f65ceaca70" />
+### 
+
+
  #### Epochs
 
 <img width="145" height="299" alt="Screenshot 2026-03-30 133419" src="https://github.com/user-attachments/assets/36b5788e-8276-4c6f-bb67-5462afb27054" />
