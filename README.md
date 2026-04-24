@@ -8,6 +8,16 @@
 Scientific Name: Bambusa spp. (or possibly Pleioblastus spp., depending on the exact type)
 Description:
 The plant shown is a Dwarf Bamboo, a smaller and more compact variety of bamboo. It grows in dense clumps with multiple thin, green stems and narrow, pointed leaves. Compared to larger bamboo species, dwarf bamboo is shorter in height but still maintains the same fast-growing nature. It is commonly used for landscaping, garden decoration, and ground cover due to its thick and bushy appearance. Dwarf bamboo thrives in warm environments and prefers moist soil, often growing well near water or shaded areas..
+
+
+<img width="814" height="1000" alt="00003_myplantin_14e23d9014ca" src="https://github.com/user-attachments/assets/57a80684-dcfb-4dc8-b511-83c57fb53201" />
+Scientific Name: Bambusa or Phyllostachys species (various)
+
+Description: "Arrow bamboo" historically refers to any of several small to medium-sized, straight-stemmed bamboo species used by indigenous peoples (including Native Americans and East Asian cultures) to make arrows. The common requirements include: straight, hollow internodes, a hard outer rind, and sufficient rigidity to withstand the force of a bow. In the United States, native species like Arundinaria gigantea (River Cane) were commonly used.
+
+
+
+
 #### C. Model Training Details
 
 Train the Model<img width="1915" height="1094" alt="Screenshot 2026-03-30 120932" src="https://github.com/user-attachments/assets/653c2ea7-2b8d-4861-8427-17f65ceaca70" />
