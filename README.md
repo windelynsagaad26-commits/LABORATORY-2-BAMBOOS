@@ -134,9 +134,7 @@ Description:
 Phyllostachys nigra 'Boryana' is a distinctive, large-running bamboo and a cultivar of the Black Bamboo species (Phyllostachys nigra). It is widely known by several common names, including Tiger Bamboo, Snakeskin Bamboo, and Leopard Bamboo, all referencing its unique culm (stem) markings .
 
 
-#### C. Model Training Details
 
-Train the Model<img width="1915" height="1094" alt="Screenshot 2026-03-30 120932" src="https://github.com/user-attachments/assets/653c2ea7-2b8d-4861-8427-17f65ceaca70" />
 
 
 **Scientific Name:** Phyllostachys nigra
@@ -159,7 +157,9 @@ Description:
 Phyllostachys aureosulcata is a medium-sized, running bamboo native to China. It is one of the most cold-hardy bamboo species available and is widely cultivated in temperate regions, including much of the United States. The name aureosulcata means "golden-grooved," referring to its most distinctive feature.
 
 
+#### C. Model Training Details
 
+Train the Model<img width="1915" height="1094" alt="Screenshot 2026-03-30 120932" src="https://github.com/user-attachments/assets/653c2ea7-2b8d-4861-8427-17f65ceaca70" />
 
  #### Epochs
 
