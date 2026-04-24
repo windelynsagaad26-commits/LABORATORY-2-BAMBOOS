@@ -1,527 +1,233 @@
-Here is an HTML document that converts your GitHub plant species data into a responsive card layout, displaying images, scientific names, and descriptions in organized columns and rows.
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Bamboo & Plant Species Index | Botanical Image Classification</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<img width="1328" height="2000" alt="00001_squarespacec_db4987ce60d2" src="https://github.com/user-attachments/assets/ebbe03ff-2a82-4cb7-a433-826cf23f6857" /># Plant-Species-Image-Classification
 
-        body {
-            background: #f0f7e8;
-            font-family: 'Segoe UI', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-            color: #1a2e1f;
-            line-height: 1.45;
-            padding: 2rem 1.5rem;
-        }
+##### B. Plant Species Section
+#### Common Name: Dwarf Bamboo
 
-        /* main container */
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
-        }
+![00007_beautifulbam_e70ad3f5361d](https://github.com/user-attachments/assets/f9eb7870-0b84-4026-a60d-a3d6f37a2367)
 
-        /* header + model summary */
-        .header-section {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
+**Scientific Name:** Bambusa spp. (or possibly Pleioblastus spp., depending on the exact type)
+**Description:**
+The plant shown is a Dwarf Bamboo, a smaller and more compact variety of bamboo. It grows in dense clumps with multiple thin, green stems and narrow, pointed leaves. Compared to larger bamboo species, dwarf bamboo is shorter in height but still maintains the same fast-growing nature. It is commonly used for landscaping, garden decoration, and ground cover due to its thick and bushy appearance. Dwarf bamboo thrives in warm environments and prefers moist soil, often growing well near water or shaded areas..
 
-        .header-section h1 {
-            font-size: 2.4rem;
-            font-weight: 600;
-            background: linear-gradient(135deg, #2d5e2c, #507d2a);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            letter-spacing: -0.3px;
-        }
+#### Common Name: Arrow Bamboo
+<img width="814" height="1000" alt="00003_myplantin_14e23d9014ca" src="https://github.com/user-attachments/assets/1faf8ae2-7dc9-46d7-8cb2-1d01e4dbe259" />
 
-        .badge {
-            display: inline-block;
-            background: #e9f5e3;
-            padding: 0.3rem 1rem;
-            border-radius: 40px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            color: #2b5e2a;
-            margin-top: 0.8rem;
-            border: 1px solid #c2dfb3;
-        }
+**Scientific Name:** Pseudosasa japonica
 
-        /* metrics cards row (epochs, batch, lr, accuracy) */
-        .metrics-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.2rem;
-            justify-content: center;
-            margin: 2rem 0 2.5rem;
-        }
+**Description:**
+Pseudosasa japonica is a perennial, running bamboo native to Japan and Korea. It typically grows 10–18 feet (3–5.5 m) tall with slender culms (stems) about 0.2–0.6 inches (5–15 mm) in diameter. The canes are exceptionally straight, strong, and have thick walls, making them ideal for crafting traditional arrows—hence the common name. The leaves are large, leathery, and glossy, measuring 5–10 inches (12–25 cm) long, which is unusually broad for a bamboo. New shoots emerge green and mature to a pale green or yellowish-green. Unlike many running bamboos, Pseudosasa japonica is relatively well-behaved, spreads slowly, and is highly shade-tolerant and cold-hardy. It remains one of the most popular bamboos for ornamental hedging, light construction, and traditional Japanese arrow-making (ya).
 
-        .metric-card {
-            background: white;
-            border-radius: 28px;
-            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.05);
-            padding: 0.9rem 1.6rem;
-            text-align: center;
-            border: 1px solid #ddebd6;
-            backdrop-filter: blur(2px);
-            transition: all 0.2s;
-        }
+### Common Nmae: Black Bamboo
+<img width="1201" height="873" alt="00001_futurecdn_9e01251769bf" src="https://github.com/user-attachments/assets/2f265125-4d99-4ecd-b5de-6443c4ccfd38" />
+Scientific Name: Phyllostachys nigra
 
-        .metric-card span.label {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            color: #5f8b4c;
-        }
+Description:
+Phyllostachys nigra is a striking, medium-sized running bamboo native to China. It grows 10–30 feet (3–9 m) tall with culms 1–2 inches (2.5–5 cm) in diameter. New shoots emerge green in spring, then gradually turn dark purple-brown before maturing into a deep, glossy jet-black by the second or third year. The slender, lance-shaped leaves remain bright green, creating a dramatic contrast against the dark canes. It spreads vigorously via underground rhizomes and can become invasive without containment. Highly prized as an ornamental specimen, it is also used for furniture, walking sticks, musical instruments, and crafts. Black bamboo is cold-hardy and thrives in full sun to partial shade.
+### Common Name:  Buddha Belly Bamboo
+<img width="930" height="1400" alt="00004_com_e08bc1c77f7a" src="https://github.com/user-attachments/assets/983f6f68-5230-4255-8f2e-0ba3bd61ea5c" />
+Scientific Name: Bambusa ventricosa
 
-        .metric-card span.value {
-            display: block;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #1f4520;
-            line-height: 1.2;
-        }
+Description:
+Bambusa ventricosa is a unique, clump-forming bamboo native to southern China and Vietnam. It typically grows 15–30 feet (4.5–9 m) tall with culms 1–2 inches (2.5–5 cm) in diameter. The plant's most distinctive feature is its swollen, bulbous internodes that resemble a Buddha's belly, hence the common name. These swollen segments are most prominent when the plant is grown under stress conditions, such as high light, low water, or pot confinement. In optimal growing conditions (ample water and fertilizer), the culms often grow straight without significant swelling. The canes are green with occasional yellow stripes, and the leaves are small, narrow, and bright green. Unlike running bamboos, Bambusa ventricosa is a clumping bamboo, meaning it stays in tight, slowly expanding clusters and is not invasive. It is highly popular as a container specimen, bonsai subject, or ornamental hedge in tropical and subtropical gardens. Buddha Belly Bamboo is not cold-hardy and requires protection from freezing temperatures.
 
-        /* two-column main layout: left (species cards) and right (model eval) */
-        .dashboard {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
+### Common Name: Chinese Mountain Bamboo
+<img width="600" height="600" alt="00010_mothersalway_8f8cb2d35438" src="https://github.com/user-attachments/assets/e2068653-99da-432a-8e21-c85bf8a130a1" />
+Scientific Name: Bashania fargesii (syn. Arundinaria fargesii)
 
-        .species-gallery {
-            flex: 2.5;
-            min-width: 280px;
-        }
+Description:
+Bashania fargesii is a vigorous, running bamboo native to the mountain forests of central China, particularly the Qinling and Daba Mountains, where it grows at elevations of 1,100–2,500 meters (3,600–8,200 feet). It typically reaches heights of 5–8 meters (16–26 feet), though it can grow up to 13 meters (43 feet) tall, with culms 2–4 cm (up to 6.5 cm) in diameter. The dark green leaves are lance-shaped, 10–20 cm long (large leaves can reach 20–30 cm), and 2.5–3 cm broad. The culms are greyish-green when young, becoming pale yellow with age, and are covered with a white powdery bloom that weathers away. This species has deep roots and spreads vigorously via underground runners, making it useful as a windbreak or evergreen screen. The bamboo is cold-hardy and thrives in full sun to partial shade with moist, well-drained soil.
 
-        .model-panel {
-            flex: 1.2;
-            min-width: 280px;
-            background: #ffffffcc;
-            backdrop-filter: blur(2px);
-            border-radius: 2rem;
-            padding: 1.2rem;
-            background: #fffffff2;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-            border: 1px solid #dbefd1;
-            height: fit-content;
-            position: sticky;
-            top: 1.5rem;
-        }
+### Common Name: Clumping Bamboo
+<img width="480" height="768" alt="00015_beautifulbam_c9c3c91c6543" src="https://github.com/user-attachments/assets/48541048-c101-4373-aafc-7916b9810ba6" />
+Scientific Name: Fargesia robusta
 
-        /* species cards grid: rows and columns */
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.8rem;
-        }
+Description: Fargesia robusta is a temperate, clumping bamboo native to western China. It grows 10–15 feet (3–4.6 m) tall with culms (stems) about 0.5–0.75 inches (1.3–2 cm) in diameter. Unlike running bamboos, it has pachymorph rhizomes, meaning new shoots emerge tightly against the parent plant, forming a dense, slowly expanding clump that spreads only 3–5 inches (7.6–12.7 cm) per year. The culms are upright and slightly arching, starting green and maturing to yellow-green with distinctive rust-colored sheaths that leave a ringed, "checkerboard" pattern. The leaves are olive-green, narrow, and lance-shaped, measuring 3–6 inches (7.6–15 cm) long. This bamboo is exceptionally cold-hardy (USDA zones 5–8), thrives in partial shade, and rarely flowers. It is a primary food source for giant pandas and is widely used for privacy screens, hedges, and container gardening due to its non-invasive nature.
 
-        .plant-card {
-            background: white;
-            border-radius: 1.8rem;
-            overflow: hidden;
-            transition: transform 0.2s ease, box-shadow 0.2s;
-            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e2f0db;
-            display: flex;
-            flex-direction: column;
-        }
+### Common  Name: Common Bamboo
+<img width="675" height="900" alt="00004_squarespacec_50fe719e7421" src="https://github.com/user-attachments/assets/e02e2039-1f59-4fbb-b0b9-0b71044e928b" />
+Scientific Name: Bambusa vulgaris Schrad. ex J.C. Wendl. 
 
-        .plant-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 18px 28px -8px rgba(0, 0, 0, 0.12);
-            border-color: #bdddaa;
-        }
+Description:
+Bambusa vulgaris is a large, open-clump type bamboo that forms moderately loose clumps without thorns . The culms (stems) grow erect but are often slightly zig-zag or sinuous, reaching 10–20 meters (30–70 feet) tall with a diameter of 4–10 cm (2–4 inches) . Culm walls are thick (7–15 mm), making the stems strong, inflexible, and not easy to split .
 
-        .img-wrapper {
-            background: #fcf9f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            min-height: 220px;
-            background: #f8faf3;
-            border-bottom: 1px solid #e5f0de;
-        }
+The culms can be glossy green, lemon-yellow, or yellow with green stripes depending on the variety . Young shoots are yellow-green covered with black hairs. Internodes are typically 20–45 cm long, and nodes are slightly inflated . Leaf blades are lance-shaped, measuring 6–30 cm long and 1–4 cm wide, with rough margins . Several branches develop from mid-culm nodes and above, with one primary dominant branch .
 
-        .plant-img {
-            max-width: 100%;
-            max-height: 210px;
-            object-fit: contain;
-            border-radius: 16px;
-            transition: 0.2s;
-        }
+This species is native to Indochina and Yunnan in southern China, but has been widely cultivated and naturalized across tropical and subtropical regions worldwide . Flowering is rare and occurs irregularly in multi-decade intervals, often with whole populations flowering simultaneously . Seeds are virtually never produced due to low pollen viability, so propagation is entirely vegetative via culm or branch cuttings, layering, or clump division .
 
-        .card-content {
-            padding: 1.2rem 1.2rem 1.4rem;
-        }
+### Common Name: Fountain Bamboo
+<img width="800" height="500" alt="00007_rackcdn_407d6e365d47" src="https://github.com/user-attachments/assets/5c9e1286-aa8a-4d33-980e-18c1a8249d2e" />
+Scientific Name: Fargesia nitida (also known previously as Arundinaria nitida or Sinarundinaria nitida) 
 
-        .common-name {
-            font-size: 1.45rem;
-            font-weight: 700;
-            color: #1f4620;
-            letter-spacing: -0.2px;
-            margin-bottom: 0.4rem;
-            line-height: 1.25;
-        }
+Description: This is a temperate, clump-forming bamboo known for its graceful, arching canes that create a fountain-like appearance . It is one of the most cold-hardy bamboos, tolerating temperatures down to -20°F (-29°C) 
 
-        .scientific-name {
-            font-style: italic;
-            font-size: 0.85rem;
-            color: #5f7b50;
-            font-weight: 500;
-            margin-bottom: 0.7rem;
-            border-left: 3px solid #8bc34a;
-            padding-left: 0.6rem;
-        }
+### Common Name: Giant Bamboo
+<img width="480" height="550" alt="00015_carolinabamb_fed41e7b181b" src="https://github.com/user-attachments/assets/dfc9b425-f552-47da-9ff5-26f8ef0a9858" />
+Scientific Name: Dendrocalamus giganteus
 
-        .description {
-            font-size: 0.85rem;
-            color: #2c3e2b;
-            line-height: 1.45;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+Description:
+Dendrocalamus giganteus is one of the largest bamboo species in the world. It is a tropical, clumping bamboo native to Southeast Asia (Myanmar, Thailand, India, and China). It reaches massive heights of 20–30 meters (65–100 feet) with culms (stems) 20–30 cm (8–12 inches) in diameter. The culm walls are thick, ranging from 1–3 cm (0.4–1.2 inches) . Young culms are covered with a distinctive white waxy powder that weathers away, leaving smooth, whitish to greyish-green canes. The internodes are long, typically 25–55 cm (10–22 inches) , and the nodes are not swollen. Leaves are large and lance-shaped, measuring 20–50 cm (8–20 inches) long and 3–10 cm (1–4 inches) wide , growing in clusters of 5–15 per node. As a clumping bamboo, it has pachymorph rhizomes and does not spread aggressively. It requires tropical or subtropical conditions (USDA zones 9–11) and cannot tolerate freezing temperatures. Flowering is rare and occurs in multi-decade intervals. The strong, thick-walled culms are used extensively for heavy construction, scaffolding, furniture, and the young shoots are edible.
 
-        /* model panel styling */
-        .eval-section {
-            margin-bottom: 1.6rem;
-        }
+### Common Name: Golden Bamboo
+<img width="700" height="700" alt="00001_co_bb35f06eba27" src="https://github.com/user-attachments/assets/25d375f7-af00-4e93-8d02-e18acaa33b09" />
+Scientific Name: Phyllostachys aurea Carrière ex Rivière & C. Rivière 
 
-        .eval-title {
-            font-weight: 700;
-            font-size: 1.2rem;
-            border-bottom: 2px solid #bddcaa;
-            display: inline-block;
-            margin-bottom: 0.8rem;
-            color: #2a5c2a;
-        }
+Description:
+Phyllostachys aurea is a medium-sized, running bamboo native to southern China . It is widely recognized as the most commonly cultivated bamboo species in the United States . This bamboo typically reaches 6–10 meters (20–35 feet) in height with culms (stems) 1–6 cm (0.4–2.4 inches) in diameter .
 
-        .confusion-placeholder {
-            background: #faf8f0;
-            border-radius: 20px;
-            padding: 0.8rem;
-            margin: 1rem 0;
-            text-align: center;
-            border: 1px dashed #bcd4a8;
-        }
+The culms are erect, stiff, and green when young, gradually turning yellow to golden-brown when exposed to strong sunlight—hence the common name "Golden Bamboo" . A distinctive feature is the swollen or compressed internodes near the base of the plant, which gives the lower culms a crowded, almost tortoiseshell-like appearance . Above these basal nodes, internodes are widely spaced, reaching up to 20 cm (8 inches) apart . The culms also have a flattened or grooved area above each node, which helps distinguish this species from native cane bamboos .
 
-        .confusion-img, .acc-img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 14px;
-            background: #fef9e6;
-            margin: 0.5rem 0;
-        }
+The leaves are lance-shaped, glossy, and typically measure 4–15 cm (1.6–6 inches) long and 0.5–2 cm (0.2–0.8 inches) wide . The plant is an aggressive spreader via leptomorph (running) rhizomes, allowing it to form dense, monotypic stands that displace native vegetation . It is extremely hardy, surviving in USDA zones 6 through 10 . Golden bamboo rarely, if ever, flowers in cultivation in North America, with mass flowering events occurring approximately every 50 years . When flowering does occur, it produces open, panicle-like inflorescences with small spikelets containing multiple florets .
 
-        .test-thumbnails {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: 12px;
-            justify-content: center;
-        }
+#### Common Name: Guadua Bamboo
+<img width="930" height="1400" alt="00006_com_7a9acbad332a" src="https://github.com/user-attachments/assets/239be677-ba7c-4ded-9fe9-c104f981a6ea" />
+Scientific Name: Guadua (genus), with the most economically important species being Guadua angustifolia Kunth .
 
-        .test-thumb {
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 12px;
-            border: 1px solid #cfdfc4;
-            background: #fef7e0;
-        }
+Description:
+Guadua is a Neotropical genus of thorny, clumping bamboo native to South and Central America, ranging from Mexico to northern Argentina . It is the most economically important bamboo in the Western Hemisphere . The genus contains the largest bamboos in tropical America .
 
-        .reflection-text {
-            background: #ecf6e5;
-            border-radius: 1.2rem;
-            padding: 0.9rem;
-            margin-top: 1.2rem;
-            font-size: 0.8rem;
-        }
+#### Common Name: Hedge Bamboo
+<img width="600" height="800" alt="00011_tropicalplan_864607df591d" src="https://github.com/user-attachments/assets/454f7b86-00f2-4da0-afb5-fedb95a3838d" />
+Scientific Name: Bambusa multiplex (Lour.) Raeusch. ex Schult.f.
 
-        hr {
-            margin: 1rem 0;
-            border-color: #e0efd6;
-        }
+Description:
+Bambusa multiplex is a tropical to subtropical, clumping bamboo native to Southeast Asia and southern China. It typically grows 3–7 meters (10–23 feet) tall with culms (stems) 1–2.5 cm (0.4–1 inch) in diameter. As a clumping (pachymorph) bamboo, it grows in dense, tight clusters that expand slowly and is non-invasive, requiring no root barriers. The culms are slender, smooth, and often arch slightly outward with age. They are green, and in many cultivated varieties, the culms are solid or nearly solid (unlike the hollow stems of most bamboos). The foliage is exceptionally dense, with 5–20 small, narrow, lance-shaped leaves per node, each leaf measuring 6–20 cm (2.4–8 inches) long. The leaves are dark green above and slightly bluish-white underneath. This species is widely grown in USDA zones 8–11 and does not tolerate freezing temperatures. It rarely flowers in cultivation.
 
-        footer {
-            margin-top: 3rem;
-            text-align: center;
-            font-size: 0.75rem;
-            color: #628a4b;
-            border-top: 1px solid #d0e4c2;
-            padding-top: 1.8rem;
-        }
+#### Common Name Japanese Bamboo
+<img width="500" height="375" alt="00004_midatlanticb_cdd3a70c1ce9" src="https://github.com/user-attachments/assets/057f6657-9251-4401-84fc-da15670ecbdb" />
 
-        @media (max-width: 780px) {
-            body {
-                padding: 1rem;
-            }
-            .model-panel {
-                position: relative;
-                top: 0;
-            }
-            .common-name {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-    <div class="header-section">
-        <h1>🌿 Plant Species Image Classification</h1>
-        <div class="badge">Bamboo & Ornamental Grasses • Deep Learning Model</div>
-    </div>
+Scientific Name: Phyllostachys bambusoides Siebold & Zucc.
 
-    <!-- Training hyperparameters & metrics (epochs, batch, lr) -->
-    <div class="metrics-grid">
-        <div class="metric-card"><span class="label">Epochs</span><span class="value">30</span></div>
-        <div class="metric-card"><span class="label">Batch Size</span><span class="value">32</span></div>
-        <div class="metric-card"><span class="label">Learning Rate</span><span class="value">0.001</span></div>
-        <div class="metric-card"><span class="label">Overall Accuracy</span><span class="value">92.4%</span></div>
-        <div class="metric-card"><span class="label">Loss (validation)</span><span class="value">0.217</span></div>
-    </div>
+Description:
+Phyllostachys bambusoides, commonly known as Japanese Timber Bamboo or Giant Timber Bamboo, is a large, running bamboo native to China (despite its common name) but extensively cultivated and naturalized in Japan for centuries. It is one of the most important timber bamboos in East Asia.
 
-    <div class="dashboard">
-        <!-- LEFT: SPECIES GALLERY (rows and columns) -->
-        <div class="species-gallery">
-            <div class="cards-grid">
-                <!-- Dwarf Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/f9eb7870-0b84-4026-a60d-a3d6f37a2367" alt="Dwarf Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Dwarf Bamboo</div>
-                        <div class="scientific-name">Bambusa spp. (or Pleioblastus spp.)</div>
-                        <div class="description">Small but dense clumping bamboo, narrow green leaves, fast-growing ground cover. Thrives in moist warm environments, perfect for landscaping and shaded areas.</div>
-                    </div>
-                </div>
-                <!-- Arrow Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/1faf8ae2-7dc9-46d7-8cb2-1d01e4dbe259" alt="Arrow Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Arrow Bamboo</div>
-                        <div class="scientific-name">Pseudosasa japonica</div>
-                        <div class="description">Tall, straight, strong canes ideal for traditional Japanese arrows. Large glossy leaves, shade-tolerant, cold-hardy, spreads slowly. Height 3–5.5m.</div>
-                    </div>
-                </div>
-                <!-- Black Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/2f265125-4d99-4ecd-b5de-6443c4ccfd38" alt="Black Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Black Bamboo</div>
-                        <div class="scientific-name">Phyllostachys nigra</div>
-                        <div class="description">Stunning ebony-black culms after 2–3 years, green leaves contrast dramatically. Vigorous runner, ornamental icon, cold-hardy. Reaches 4–8m.</div>
-                    </div>
-                </div>
-                <!-- Buddha Belly Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/983f6f68-5230-4255-8f2e-0ba3bd61ea5c" alt="Buddha Belly Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Buddha Belly Bamboo</div>
-                        <div class="scientific-name">Bambusa ventricosa</div>
-                        <div class="description">Swollen internodes resemble Buddha's belly. Clumping, non-invasive. Stressed conditions enhance bulbous shape. Perfect bonsai or container specimen.</div>
-                    </div>
-                </div>
-                <!-- Chinese Mountain Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/e2068653-99da-432a-8e21-c85bf8a130a1" alt="Chinese Mountain Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Chinese Mountain Bamboo</div>
-                        <div class="scientific-name">Bashania fargesii</div>
-                        <div class="description">Running bamboo from central China mountains, vigorous spreader. Large dark green leaves up to 30cm long. Cold-hardy and excellent windbreak.</div>
-                    </div>
-                </div>
-                <!-- Clumping Bamboo (Fargesia robusta) -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/48541048-c101-4373-aafc-7916b9810ba6" alt="Clumping Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Clumping Bamboo</div>
-                        <div class="scientific-name">Fargesia robusta</div>
-                        <div class="description">Non-invasive temperate clumper, dense habit. Rust-colored sheaths leave ringed pattern. Panda food, cold-hardy, ideal for privacy screens.</div>
-                    </div>
-                </div>
-                <!-- Common Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/e02e2039-1f59-4fbb-b0b9-0b71044e928b" alt="Common Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Common Bamboo</div>
-                        <div class="scientific-name">Bambusa vulgaris</div>
-                        <div class="description">Large open-clump bamboo, thick-walled strong stems. Glossy green or golden hues. Widely naturalized in tropics, rare flowering event.</div>
-                    </div>
-                </div>
-                <!-- Fountain Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/5c9e1286-aa8a-4d33-980e-18c1a8249d2e" alt="Fountain Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Fountain Bamboo</div>
-                        <div class="scientific-name">Fargesia nitida</div>
-                        <div class="description">Graceful arching canes resembling a fountain. One of the most cold-hardy bamboos (-29°C). Clumping, elegant foliage.</div>
-                    </div>
-                </div>
-                <!-- Giant Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/dfc9b425-f552-47da-9ff5-26f8ef0a9858" alt="Giant Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Giant Bamboo</div>
-                        <div class="scientific-name">Dendrocalamus giganteus</div>
-                        <div class="description">One of the world's largest bamboos, reaching 30m tall. Tropical clumper with white waxy powder on young culms. Heavy construction uses.</div>
-                    </div>
-                </div>
-                <!-- Golden Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/25d375f7-af00-4e93-8d02-e18acaa33b09" alt="Golden Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Golden Bamboo</div>
-                        <div class="scientific-name">Phyllostachys aurea</div>
-                        <div class="description">Classic running bamboo, green culms turn golden in sun. Compressed internodes at base. Hardy and widely cultivated.</div>
-                    </div>
-                </div>
-                <!-- Guadua Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/239be677-ba7c-4ded-9fe9-c104f981a6ea" alt="Guadua Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Guadua Bamboo</div>
-                        <div class="scientific-name">Guadua angustifolia</div>
-                        <div class="description">Neotropical thorny clumping bamboo, largest bamboo in Americas. Essential for construction and eco-systems from Mexico to Argentina.</div>
-                    </div>
-                </div>
-                <!-- Hedge Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/454f7b86-00f2-4da0-afb5-fedb95a3838d" alt="Hedge Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Hedge Bamboo</div>
-                        <div class="scientific-name">Bambusa multiplex</div>
-                        <div class="description">Dense, non-invasive clumping bamboo with solid or nearly solid culms. Exceptional for hedges, tropical to subtropical.</div>
-                    </div>
-                </div>
-                <!-- Japanese Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/057f6657-9251-4401-84fc-da15670ecbdb" alt="Japanese Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Japanese Timber Bamboo</div>
-                        <div class="scientific-name">Phyllostachys bambusoides</div>
-                        <div class="description">Major timber bamboo, thick straight culms. Classic East Asian construction species, running habit.</div>
-                    </div>
-                </div>
-                <!-- Moso Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/42d17420-d0fb-4f91-bd56-77563cbbbc6d" alt="Moso Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Moso Bamboo</div>
-                        <div class="scientific-name">Phyllostachys edulis</div>
-                        <div class="description">Backbone of Chinese bamboo industry, giant running bamboo. Edible shoots, tall straight timber.</div>
-                    </div>
-                </div>
-                <!-- Painted Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/98a727ac-2f7d-414b-8e9b-dd100afd7b84" alt="Painted Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Painted Bamboo</div>
-                        <div class="scientific-name">Bambusa vulgaris 'Vittata'</div>
-                        <div class="description">Striking yellow culms with green stripes, tropical clumper. Highly ornamental, vivid garden specimen.</div>
-                    </div>
-                </div>
-                <!-- Sacred Bamboo (not true bamboo) -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/f7963897-af7e-468b-aef7-ab69fa1e125b" alt="Sacred Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Sacred Bamboo</div>
-                        <div class="scientific-name">Nandina domestica</div>
-                        <div class="description">Evergreen shrub (not true bamboo) with delicate leaves, red berries. Popular in Asian gardens, sacred symbolism.</div>
-                    </div>
-                </div>
-                <!-- Tiger Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/a42b4191-3ec0-4be5-a6c9-fb416263ddcf" alt="Tiger Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Tiger Bamboo</div>
-                        <div class="scientific-name">Phyllostachys nigra 'Boryana'</div>
-                        <div class="description">Snakeskin / leopard markings on culms. Running cultivar of black bamboo, unique ornamental pattern.</div>
-                    </div>
-                </div>
-                <!-- Weaver Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/f6348d13-e6f9-4cff-8135-da01b116ae08" alt="Weaver Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Weaver's Bamboo</div>
-                        <div class="scientific-name">Bambusa textilis</div>
-                        <div class="description">Slender, clumping bamboo essential for textile weaving. Clean canes, southern China native.</div>
-                    </div>
-                </div>
-                <!-- Yellow Groove Bamboo -->
-                <div class="plant-card">
-                    <div class="img-wrapper"><img class="plant-img" src="https://github.com/user-attachments/assets/73f946d2-d461-4d53-81fd-fb8498584939" alt="Yellow Groove Bamboo"></div>
-                    <div class="card-content">
-                        <div class="common-name">Yellow Groove Bamboo</div>
-                        <div class="scientific-name">Phyllostachys aureosulcata</div>
-                        <div class="description">Golden grooves on culms, extremely cold-hardy runner. Distinctive zigzag pattern at base.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+#### Common Name: Moso Bamboo
+<img width="1000" height="1000" alt="00001_lewisbamboo_2b8caa767302" src="https://github.com/user-attachments/assets/42d17420-d0fb-4f91-bd56-77563cbbbc6d" />
 
-        <!-- RIGHT: Model Evaluation + Testing & Reflection -->
-        <div class="model-panel">
-            <div class="eval-section">
-                <div class="eval-title">📊 Confusion Matrix</div>
-                <div class="confusion-placeholder">
-                    <img class="confusion-img" src="https://github.com/user-attachments/assets/39b43099-ae40-41d4-8c30-c61f42866109" alt="confusion matrix" style="max-width:100%; border-radius:16px;">
-                </div>
-            </div>
-            <div class="eval-section">
-                <div class="eval-title">🎯 Accuracy per Class</div>
-                <img class="acc-img" src="https://github.com/user-attachments/assets/a078c834-50e2-4f87-a65e-a6cd98cf5d07" alt="accuracy per class" style="width:100%; border-radius:16px; background:#faf6e9;">
-            </div>
-            <div class="eval-section">
-                <div class="eval-title">🧪 Model Testing (Preview)</div>
-                <div class="test-thumbnails">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/33ff76e2-9ac3-4f24-926e-07d94c136676" alt="test1">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/1b581e7a-a1d1-4af3-b6a9-8193df6dc576" alt="test2">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/fa25f51e-e157-463a-b3dd-f34ff702cf0d" alt="test3">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/4a67fe98-3023-4c99-bf78-74b63bfca919" alt="test4">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/c1a5e6cc-ea5c-4ead-bd40-cab8ae5863df" alt="test5">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/e4c6109e-5fb2-4859-abe4-2ffee56c66f5" alt="test6">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/001a9604-ce62-4369-9ba3-cbb1a87aa34d" alt="test7">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/f52862c4-33b8-4ca8-9f24-6de199d26fcc" alt="test8">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/c7ebe7f7-cf5e-4a3e-9a45-3cf4758d7477" alt="test9">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/c1ed33b4-0177-4514-ba9d-92d20751953e" alt="test10">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/90e8e7af-0342-4060-bd7e-a59596b87952" alt="test11">
-                    <img class="test-thumb" src="https://github.com/user-attachments/assets/5257826b-a037-4ec0-933e-5c6609d76be8" alt="test12">
-                </div>
-                <div style="font-size:0.7rem; margin-top:6px; text-align:center;">↑ inference samples (real-time classification results)</div>
-            </div>
+Scientific Name: Phyllostachys edulis (Carrière) J. Houz.
 
-            <hr>
-            <div class="reflection-text">
-                <strong>💡 Reflection Q&A</strong><br><br>
-                <strong>1. Images per class & accuracy:</strong> More images improved accuracy (richer feature extraction); rare misclassifications for underrepresented species.<br><br>
-                <strong>2. Commonly misclassified:</strong> Similar leaf texture bamboos (Bambusa vs. Phyllostachys) & species with analogous growth habits; fine-grained visual distinctions remain challenging.<br><br>
-                <strong>3. Hyperparameters effect:</strong> More epochs → higher training accuracy but risk of overfitting (validation loss plateau). Batch size 32 stable; learning rate 0.001 gave steady convergence.<br><br>
-                <strong>4. Dataset challenges:</strong> Varied lighting, background, duplicate images; labeling required careful botanical validation to avoid genus confusion.<br><br>
-                <strong>5. Improvements:</strong> Add more field images + data augmentation (rotation, color jitter). Use attention mechanism, fine-tune CNN backbone, and expand rare species samples.
-            </div>
-            <div style="margin-top: 1rem; font-size:0.75rem; background:#eaf3e3; border-radius: 1rem; padding:0.4rem 0.8rem; text-align:center;">
-                🧠 Model architecture: EfficientNet-B0 • Transfer learning • Training accuracy 94%, Val accuracy 92.4%
-            </div>
-        </div>
-    </div>
-    <footer>
-        🌱 Plant-Species-Image-Classification • Bamboo dataset • Organized in responsive columns & rows • Scientific descriptions + visual benchmarks
-    </footer>
-</div>
-</body>
-</html>
-```
+(Synonyms: Phyllostachys pubescens, Phyllostachys heterocycla var. pubescens)
+
+Description:
+Phyllostachys edulis is a giant, running (leptomorph) bamboo native to China and Taiwan . It is the backbone of the Chinese bamboo industry due to its size and the quality of its timber .
+
+#### Common Name: Painted Bamboo 
+<img width="297" height="400" alt="00001_com_3cd9a8311037" src="https://github.com/user-attachments/assets/98a727ac-2f7d-414b-8e9b-dd100afd7b84" />
+Scientific Name: Bambusa vulgaris 'Vittata' 
+
+(Synonyms: Bambusa striata, Bambusa vulgaris cv. Vittata) 
+
+Description:
+Bambusa vulgaris 'Vittata' is a striking, tropical clumping bamboo native to China and the Indochina region . It is one of the most widely cultivated ornamental bamboos in the tropical world, prized for its distinctive and colorful culms (stems) .
+
+#### Common Name: Sacred Bamboo
+<img width="1000" height="1000" alt="00015_shopify_b1ab1fe4f642" src="https://github.com/user-attachments/assets/f7963897-af7e-468b-aef7-ab69fa1e125b" />
+Scientific Name: Nandina domestica Thunb. 
+
+Description:
+Despite its common name, Sacred Bamboo is not a true bamboo but an evergreen shrub belonging to the Barberry family (Berberidaceae) . It is native to eastern Asia, including China, Japan, and India .
+
+#### Common Name: Tiger Bamboo
+<img width="600" height="521" alt="00262_com_1c39e1a2c204" src="https://github.com/user-attachments/assets/a42b4191-3ec0-4be5-a6c9-fb416263ddcf" />
+Scientific Name: Phyllostachys nigra 'Boryana' (syn. Phyllostachys nigra 'Bory', Phyllostachys boryana) 
+
+Description:
+Phyllostachys nigra 'Boryana' is a distinctive, large-running bamboo and a cultivar of the Black Bamboo species (Phyllostachys nigra). It is widely known by several common names, including Tiger Bamboo, Snakeskin Bamboo, and Leopard Bamboo, all referencing its unique culm (stem) markings .
+
+
+#### C. Model Training Details
+
+Train the Model<img width="1915" height="1094" alt="Screenshot 2026-03-30 120932" src="https://github.com/user-attachments/assets/653c2ea7-2b8d-4861-8427-17f65ceaca70" />
+
+
+**Scientific Name:** Phyllostachys nigra
+**Description:** Phyllostachys nigra is a striking, medium-sized, running bamboo native to the Hunan and Guizhou provinces of China . It is a perennial, woody grass belonging to the Poaceae family . This species is most renowned for its unique culm (stem) coloration: new shoots emerge green in their first year and gradually develop splotches of purple and dark brown before turning a deep, ebony black by the second or third year . The mature canes typically reach heights of 4–8 meters (13–26 feet), though they can occasionally grow up to 10 meters (33 feet), with a diameter of 2–5 centimeters . The green, lance-shaped leaves are 6–12 cm long and create a beautiful contrast against the dark, polished-looking stems . Black bamboo is classified as a "leptomorph" or running bamboo, meaning it spreads vigorously via underground rhizomes and can become invasive if not properly contained .
+
+#### Common Name: Weaver Bamboo
+<img width="1328" height="2000" alt="00001_squarespacec_db4987ce60d2" src="https://github.com/user-attachments/assets/f6348d13-e6f9-4cff-8135-da01b116ae08" />
+
+Scientific Name: Bambusa textilis McClure 
+
+Description:
+Bambusa textilis, commonly known as Weaver's Bamboo, Slender Bamboo, or Chinese Textile Bamboo, is a medium-sized, clumping bamboo native to Guangdong and Guangxi provinces of China . It is one of the most important bamboo species for weaving and textile production in southern China .
+
+#### Common Name: Yellow Groove Bamboo
+<img width="750" height="859" alt="00016_co_a2fa6c87a934" src="https://github.com/user-attachments/assets/73f946d2-d461-4d53-81fd-fb8498584939" />
+
+Scientific Name: Phyllostachys aureosulcata McClure
+
+Description:
+Phyllostachys aureosulcata is a medium-sized, running bamboo native to China. It is one of the most cold-hardy bamboo species available and is widely cultivated in temperate regions, including much of the United States. The name aureosulcata means "golden-grooved," referring to its most distinctive feature.
+
+
+
+
+ #### Epochs
+
+<img width="145" height="299" alt="Screenshot 2026-03-30 133419" src="https://github.com/user-attachments/assets/36b5788e-8276-4c6f-bb67-5462afb27054" />
+
+
+
+ #### Batch Size
+
+<img width="145" height="299" alt="Screenshot 2026-03-30 133419" src="https://github.com/user-attachments/assets/e162b44e-e8a2-4c0b-b426-a0a208a05245" />
+
+ ###### Learning Rate
+
+<img width="145" height="299" alt="Screenshot 2026-03-30 133419" src="https://github.com/user-attachments/assets/a532ec75-ba83-4ef0-8308-14ae9c06ab8b" />
+ 
+
+###  Collect “Under the Hood” Results
+
+
+
+##### D. Model Evaluation
+
+#### Confusion Matrix
+
+<img width="348" height="260" alt="Screenshot 2026-03-30 131931" src="https://github.com/user-attachments/assets/39b43099-ae40-41d4-8c30-c61f42866109" />
+
+##### Accuracy per class
+<img width="351" height="248" alt="Screenshot 2026-03-30 131947" src="https://github.com/user-attachments/assets/a078c834-50e2-4f87-a65e-a6cd98cf5d07" />
+
+
+###### Overall accuracy
+
+<img width="333" height="985" alt="Screenshot 2026-03-30 132033" src="https://github.com/user-attachments/assets/afada765-1284-4367-bf4f-d54c969b36aa" />
+
+
+#####  Loss values (if available)
+
+<img width="314" height="909" alt="Screenshot 2026-03-30 132201" src="https://github.com/user-attachments/assets/6c2e9008-f87d-4420-8f29-5eb903a42e41" />
+
+###### E. Model Testing
+Embedded 10 testing screenshots from the Preview section
+
+<img width="251" height="937" alt="Screenshot 2026-03-30 132628" src="https://github.com/user-attachments/assets/33ff76e2-9ac3-4f24-926e-07d94c136676" /> <img width="247" height="938" alt="Screenshot 2026-03-30 132557" src="https://github.com/user-attachments/assets/1b581e7a-a1d1-4af3-b6a9-8193df6dc576" /><img width="238" height="939" alt="Screenshot 2026-03-30 132537" src="https://github.com/user-attachments/assets/fa25f51e-e157-463a-b3dd-f34ff702cf0d" />
+<img width="249" height="940" alt="Screenshot 2026-03-30 132513" src="https://github.com/user-attachments/assets/4a67fe98-3023-4c99-bf78-74b63bfca919" /><img width="185" height="714" alt="Screenshot 2026-03-30 133103" src="https://github.com/user-attachments/assets/c1a5e6cc-ea5c-4ead-bd40-cab8ae5863df" /><img width="185" height="467" alt="Screenshot 2026-03-30 133027" src="https://github.com/user-attachments/assets/e4c6109e-5fb2-4859-abe4-2ffee56c66f5" />
+<img width="190" height="483" alt="Screenshot 2026-03-30 132942" src="https://github.com/user-attachments/assets/001a9604-ce62-4369-9ba3-cbb1a87aa34d" />
+<img width="186" height="708" alt="Screenshot 2026-03-30 132916" src="https://github.com/user-attachments/assets/f52862c4-33b8-4ca8-9f24-6de199d26fcc" />
+<img width="188" height="479" alt="Screenshot 2026-03-30 132846" src="https://github.com/user-attachments/assets/c7ebe7f7-cf5e-4a3e-9a45-3cf4758d7477" /><img width="188" height="899" alt="Screenshot 2026-03-30 132800" src="https://github.com/user-attachments/assets/c1ed33b4-0177-4514-ba9d-92d20751953e" /><img width="184" height="717" alt="Screenshot 2026-03-30 132741" src="https://github.com/user-attachments/assets/90e8e7af-0342-4060-bd7e-a59596b87952" /><img width="248" height="938" alt="Screenshot 2026-03-30 132657" src="https://github.com/user-attachments/assets/5257826b-a037-4ec0-933e-5c6609d76be8" />
+
+
+
+###### Reflection Questions:
+
+1. How did the number of images per class affect your model’s accuracy?
+
+More images per class made the model more accurate because it had more examples to learn from.
+
+2. Which plant species were most commonly misclassified and why?
+
+Plants with similar leaves or appearance were often misclassified because they look alike.
+
+3. How did changing the epochs, batch size, or learning rate affect the training results?
+
+More epochs improved accuracy, but too much can overfit. Learning rate and batch size affected how fast and stable the training was.
+
+4. What challenges did you encounter during dataset collection and labeling?
+
+It was hard to find many clear images and avoid duplicates. Organizing the images was also challenging.
+
+5. If you were to improve your model, what specific changes would you make and why?
+
+I would add more images, use better quality images, and adjust the training settings to improve accuracy.
